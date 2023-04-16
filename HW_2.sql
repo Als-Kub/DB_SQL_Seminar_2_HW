@@ -22,8 +22,6 @@ UPDATE bucket SET bucket = "Large order" WHERE bucket = "greater than 300";
 
 SELECT * FROM bucket;
 
-DROP TABLE orders;
-
 CREATE TABLE orders
 (orderid INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 employeeid VARCHAR(10) NOT NULL,
